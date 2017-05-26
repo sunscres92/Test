@@ -3,8 +3,7 @@ document.getElementById('myForm').addEventListener('submit', saveBookmark);
 
 
 
-// Save Bookmark
-function saveBookmark(e){
+
   // Get form values
   var siteName =document.getElementById('siteName').value;
   var siteUrl =document.getElementById('siteUrl').value;
